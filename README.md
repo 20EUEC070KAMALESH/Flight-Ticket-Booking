@@ -2,7 +2,7 @@
 (incomplete)
 * Login page(login.php) - There will be separate log in for user and admin,here i have created a single login in which admin login with respective admin id and user can log in with their username and password.
 *  Registration page(registration.php) - For a new user it will redirect to the Registration page in which the user name,user email,user mobile number,user Adhar,user passport id and a password.
-*  Admin pages
+*  Admin pages<br/>
              *Add flight page(flight_add.php) - This page is used to add the flights with their id,name ,shortcode and total number of tickets.
              *Add destination page(destination.php) - It is used for the purpose of adding flight availability in cities with thier shortcodes.
              *Flight details page(flight_details_add.php) - In this page the admin can add the departure place,arrival place,departure date,arrival         
