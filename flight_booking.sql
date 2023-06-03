@@ -234,9 +234,9 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`id`, `role_id`, `user_name`, `password`, `mobile`, `email_id`, `address`, `adhar_id`, `passport_no`, `pass`, `created_at`, `updated_at`, `created_by`, `updated_by`) VALUES
 (1, 1, 'admin', '$2y$10$DJ3R2UXuR1HrKySsMTXUwe9xXbBwRqlWeE.YO9rcZizzY0grDURnC', 0, 'admin@admin.com', '', 1234567890123456, 'rwrrwtrwtwr', 'admin@123', '2023-06-02 18:10:04', NULL, 0, NULL),
-(2, 2, 'kamalesh', '', 7904530662, 'admin@admin.com', '18/2,Bangaru Street', 3473483834, 'jsdhisdisjid', '', '0000-00-00 00:00:00', NULL, 0, NULL),
-(3, 2, 'dheva', '$2y$10$4NgqbJQEPobmTOEXV.WyHOlasXoq.Py/VHGQrcbE14buqP5S58y1i', 7904530662, 'admin@admin.com', '18/2,Bangaru Street', 943423202, 'dssndksdsnksak', '', '2023-06-03 12:52:46', NULL, 0, NULL),
-(4, 2, 'jithish', '$2y$10$s/EH8k1OhU8NRamh37T59.c.zQhqJ.OXUamhSnKlW3Grk2ClmzCmy', 87434300922, '20euec070@skcet.ac.in', '!8/22,banfaru street,bodinayakur', 943423202, 'sjdsjdnsdknk', '', '2023-06-03 12:53:02', NULL, 0, NULL);
+(2, 2, 'kamalesh', '$2y$10$5fYQJgOpND7WlhbDxXsw9OCtNRkmAgCD7VWqq1FGK51lIl9mwpP6S', 7904530662, 'admin@admin.com', '18/2,Bangaru Street', 3473483834, 'jsdhisdisjid', 'skcet@123', '0000-00-00 00:00:00', NULL, 0, NULL),
+(3, 2, 'dheva', '$2y$10$5fYQJgOpND7WlhbDxXsw9OCtNRkmAgCD7VWqq1FGK51lIl9mwpP6S', 7904530662, 'admin@admin.com', '18/2,Bangaru Street', 943423202, 'dssndksdsnksak', 'skcet@123', '2023-06-03 12:52:46', NULL, 0, NULL),
+(4, 2, 'jithish', '$2y$10$5fYQJgOpND7WlhbDxXsw9OCtNRkmAgCD7VWqq1FGK51lIl9mwpP6S', 87434300922, '20euec070@skcet.ac.in', '!8/22,banfaru street,bodinayakur', 943423202, 'sjdsjdnsdknk', 'skcet@123', '2023-06-03 12:53:02', NULL, 0, NULL);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
